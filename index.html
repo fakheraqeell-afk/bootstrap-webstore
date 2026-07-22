@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS main link-->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar h-auto shadow-lg  fixed-top  navbar-expand-lg navbar-light bg-light ">
+  <a class="navbar-brand logo" href="#">STORE</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#bout-section">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services-section">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#special-section">Special</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact-form">Contact</a>
+      </li>
+      
+      
+    </ul>
+    
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      
+    </form>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModal">
+        LOG IN
+    </button>
+  </div>
+</nav>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title mx-auto" id="exampleModalLabel">Enter you info</h5>
+        
+      </div>
+      <div class="modal-body ">
+        <input class="my-1 d-block w-100" type="text" placeholder="Enter your Email">
+        <input class="my-1 d-block w-100" type="password" name="password" id="" placeholder="Enter you Password">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/hero.png" class="d-block w-100 vh-100 img" alt="...">
+      <div class="carousel-caption d-none d-md-block h2">
+        <p>Experience premium fashion crafted for those who appreciate elegance, quality, and modern sophistication.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<section class="my-3" id="bout-section">
+  <h2 class="text-center my-5">About Us</h2>
+  <div class="container">
+    <div class="row my-4 justify-content-between">
+        <div class="col-lg-4 mx-auto col-md-6 mb-4">
+        <div class="card my-3">
+          <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+            data-mdb-ripple-color="light">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(3).webp"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Trendy Collections</h5>
+            </a>
+            
+              <p>Discover the latest fashion trends and timeless styles carefully selected to help you look your best every day.</p>
+         
+            
+          </div>
+        </div>
+      </div>
+
+
+
+        <div class="col-lg-4 mx-auto col-md-6 mb-4">
+        <div class="card my-3">
+          <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+            data-mdb-ripple-color="light">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(2).webp"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Premium Quality</h5>
+            </a>
+            
+              <p>We offer high-quality clothing and accessories crafted with attention to detail, comfort, and durability.</p>
+            
+            
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-4 mx-auto col-md-6 mb-4">
+        <div class="card my-3">
+          <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+            data-mdb-ripple-color="light">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(1).webp"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Fast & Easy Shopping</h5>
+            </a>
+          
+              <p>Enjoy a seamless shopping experience with secure payments, quick delivery, and hassle-free returns.</p>
+            
+            
+          </div>
+        </div>
+      </div>
+       
+    </div>
+</div>
+</section>
+
+
+<div class="container-fluid bg-dark">
+    <div class="content my-5 mx-auto text-center w-50 text-light py-5">
+        <h1>Welcome To Our Store</h1>
+        <p class="py-3">Welcome to our fashion destination, where style meets quality. We believe that great fashion should be accessible, inspiring, and comfortable. Our collections are carefully curated to bring you the latest trends, timeless essentials, and unique pieces that help you express your individuality with confidence. Whether you're updating your everyday wardrobe or searching for the perfect statement piece, we're here to make your shopping experience effortless and enjoyable.</p>
+    </div>
+</div>
+
+
+<section class="my-3" id="services-section">
+  <h2 class="text-center my-5">Our Services</h2>
+  <div class="container">
+    <div class="row my-4 justify-content-between">
+        <div class="col-lg-4 mx-auto col-md-6 mb-4">
+        <div class="card my-3">
+          <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+            data-mdb-ripple-color="light">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(6).webp"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Personal Styling</h5>
+            </a>
+            
+              <p>Get fashion inspiration and styling recommendations to create the perfect look for any occasion.</p>
+         
+            
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-4 mx-auto col-md-6 mb-4">
+        <div class="card my-3">
+          <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+            data-mdb-ripple-color="light">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(9).webp"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Fast Worldwide Shipping</h5>
+            </a>
+            
+              <p>Receive your favorite fashion pieces quickly and securely with our reliable delivery service.</p>
+            
+            
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-4 mx-auto col-md-6 mb-4">
+        <div class="card my-3">
+          <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+            data-mdb-ripple-color="light">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(10).webp"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Easy Returns & Exchanges</h5>
+            </a>
+              <p>Shop with confidence thanks to our simple return and exchange process designed for your convenience.</p>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+</div>
+</section>
+
+
+<div class="container-fluid my-img2 my-5" style="background-image: url('images/hero.png');" >
+   
+</div>
+
+
+<section class="container" id="special-section">
+  <h2 class="text-center my-5">Special Category</h2>
+  <div class="card mb-3 container my-3" >
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="images/man.png" alt="..." class="res-img">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Men's Collection</h5>
+        <p class="card-text pt-5">Explore modern essentials, stylish casual wear, and sophisticated outfits designed for every occasion.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3 container" >
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="images/woman.png" alt="..." class="res-img">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Women's Collection</h5>
+        <p class="card-text pt-5">Discover elegant fashion, trending styles, and timeless pieces that celebrate confidence and individuality.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3 container" >
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="images/kid img.png" alt="..." class="res-img ">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Kids' Collection</h5>
+        <p class="card-text pt-5">Find comfortable, durable, and playful clothing designed to keep kids looking great every day.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+
+<section style="background-color: #eee;" class="my-3">
+  <h2 class="text-center my-5">Special Offers</h2>
+  <div class="container-fluid my-3">
+    <div class="row justify-content-center mb-3">
+      <div class="col-md-12 col-xl-10">
+        <div class="card shadow-0 border rounded-3">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
+                <div class="bg-image hover-zoom ripple rounded ripple-surface">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(4).webp"
+                    class="w-100" />
+                  <a href="#!">
+                    <div class="hover-overlay">
+                      <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6 col-xl-6">
+                <h5>Quant trident shirts</h5>
+                <div class="d-flex flex-row">
+                  <div class="text-danger mb-1 me-2">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <span>310</span>
+                </div>
+                <div class="mt-1 mb-0 text-muted small">
+                  <span>100% cotton</span>
+                  <span class="text-primary"> • </span>
+                  <span>Light weight</span>
+                  <span class="text-primary"> • </span>
+                  <span>Best finish<br /></span>
+                </div>
+                <div class="mb-2 text-muted small">
+                  <span>Unique design</span>
+                  <span class="text-primary"> • </span>
+                  <span>For men</span>
+                  <span class="text-primary"> • </span>
+                  <span>Casual<br /></span>
+                </div>
+                <p class="text-truncate mb-4 mb-md-0">
+                  There are many variations of passages of Lorem Ipsum available, but the
+                  majority have suffered alteration in some form, by injected humour, or
+                  randomised words which don't look even slightly believable.
+                </p>
+              </div>
+              <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
+                <div class="d-flex flex-row align-items-center mb-1">
+                  <h4 class="mb-1 me-1">$13.99</h4>
+                  <span class="text-danger"><s>$20.99</s></span>
+                </div>
+                <h6 class="text-success">Free shipping</h6>
+                <div class="d-flex flex-column mt-4">
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-sm" type="button">Details</button>
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-primary btn-sm mt-2" type="button">
+                    Add to wishlist
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center mb-3">
+      <div class="col-md-12 col-xl-10">
+        <div class="card shadow-0 border rounded-3">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
+                <div class="bg-image hover-zoom ripple rounded ripple-surface">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/new/img(4).webp"
+                    class="w-100" />
+                  <a href="#!">
+                    <div class="hover-overlay">
+                      <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6 col-xl-6">
+                <h5>Quant olap shirts</h5>
+                <div class="d-flex flex-row">
+                  <div class="text-danger mb-1 me-2">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <span>289</span>
+                </div>
+                <div class="mt-1 mb-0 text-muted small">
+                  <span>100% cotton</span>
+                  <span class="text-primary"> • </span>
+                  <span>Light weight</span>
+                  <span class="text-primary"> • </span>
+                  <span>Best finish<br /></span>
+                </div>
+                <div class="mb-2 text-muted small">
+                  <span>Unique design</span>
+                  <span class="text-primary"> • </span>
+                  <span>For men</span>
+                  <span class="text-primary"> • </span>
+                  <span>Casual<br /></span>
+                </div>
+                <p class="text-truncate mb-4 mb-md-0">
+                  There are many variations of passages of Lorem Ipsum available, but the
+                  majority have suffered alteration in some form, by injected humour, or
+                  randomised words which don't look even slightly believable.
+                </p>
+              </div>
+              <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
+                <div class="d-flex flex-row align-items-center mb-1">
+                  <h4 class="mb-1 me-1">$14.99</h4>
+                  <span class="text-danger"><s>$21.99</s></span>
+                </div>
+                <h6 class="text-success">Free shipping</h6>
+                <div class="d-flex flex-column mt-4">
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-sm" type="button">Details</button>
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-primary btn-sm mt-2" type="button">
+                    Add to wishlist
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-xl-10">
+        <div class="card shadow-0 border rounded-3">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
+                <div class="bg-image hover-zoom ripple rounded ripple-surface">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/new/img(5).webp"
+                    class="w-100" />
+                  <a href="#!">
+                    <div class="hover-overlay">
+                      <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6 col-xl-6">
+                <h5>Quant ruybi shirts</h5>
+                <div class="d-flex flex-row">
+                  <div class="text-danger mb-1 me-2">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <span>145</span>
+                </div>
+                <div class="mt-1 mb-0 text-muted small">
+                  <span>100% cotton</span>
+                  <span class="text-primary"> • </span>
+                  <span>Light weight</span>
+                  <span class="text-primary"> • </span>
+                  <span>Best finish<br /></span>
+                </div>
+                <div class="mb-2 text-muted small">
+                  <span>Unique design</span>
+                  <span class="text-primary"> • </span>
+                  <span>For women</span>
+                  <span class="text-primary"> • </span>
+                  <span>Casual<br /></span>
+                </div>
+                <p class="text-truncate mb-4 mb-md-0">
+                  There are many variations of passages of Lorem Ipsum available, but the
+                  majority have suffered alteration in some form, by injected humour, or
+                  randomised words which don't look even slightly believable.
+                </p>
+              </div>
+              <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
+                <div class="d-flex flex-row align-items-center mb-1">
+                  <h4 class="mb-1 me-1">$17.99</h4>
+                  <span class="text-danger"><s>$25.99</s></span>
+                </div>
+                <h6 class="text-success">Free shipping</h6>
+                <div class="d-flex flex-column mt-4">
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-sm" type="button">Details</button>
+                  <button data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-primary btn-sm mt-2" type="button">
+                    Add to wishlist
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section style="background-color: #eee;">
+  <div class="text-center container py-5">
+    <h2 class="mt-4 mb-5">Bestsellers</h2>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+            data-mdb-ripple-color="light">
+            <img src="images/white t shirt.jpg"
+              class="w-100" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Classic White T-Shirt</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Men’s Fashion</p>
+            </a>
+            <h6 class="mb-3">$24.99</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+            data-mdb-ripple-color="light">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(4).webp"
+              class="w-100" />
+           
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Floral Summer Dress</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Women’s Fashion</p>
+            </a>
+            <h6 class="mb-3">49.99</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/shoes%20(3).webp"
+              class="w-100" />
+           
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Kids wearing</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Kids’ Fashion </p>  
+            </a>
+            <h6 class="mb-3">
+              <s>$61.99</s><strong class="ms-2 text-danger">$34.99</strong>
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+            <img src="images/pngwing.com (9).png"
+              class="w-100 height" />
+            
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Slim Fit Jeans</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Women’s Fashion</p>
+            </a>
+            <h6 class="mb-3">
+              <s>$61.99</s><strong class="ms-2 text-danger">$44.99</strong>
+            </h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+            data-mdb-ripple-color="light">
+            <img src="images/pngwing.com (6).png"
+              class=" " />
+            <a href="#!">
+              <div class="mask">
+                <div class="d-flex justify-content-start align-items-end h-100"></div>
+              </div>
+              <div class="hover-overlay">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </div>
+            </a>
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Oversized Hoodie</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Women’s Fashion</p>
+            </a>
+            <h6 class="mb-3">$39.99</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+            <img src="images/pngwing.com (2).png"
+              class="w-100 height" />
+          </div>
+          <div class="card-body">
+            <a href="" class="text-reset">
+              <h5 class="card-title mb-3">Kids Sneakers</h5>
+            </a>
+            <a href="" class="text-reset">
+              <p>Kids’ Fashion</p>
+            </a>
+            <h6 class="mb-3">
+              <s>$61.99</s><strong class="ms-2 text-danger">$29.99</strong>
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<form id="contact-form" action="mail.php" method="POST" class="container" >
+  <h2 class="text-center py-3">Contact us</h2>
+
+  <!-- Name input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <label class="form-label" for="name">Name</label>
+    <input type="text" id="name" name="name" class="form-control" />
+  </div>
+
+  <!-- Email input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <label class="form-label" for="email">Email address</label>
+    <input type="email" id="email" name="email" class="form-control" />
+  </div>
+
+  <!-- Subject input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <label class="form-label" for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" class="form-control" />
+  </div>
+
+  <!-- Message input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <label class="form-label" for="message">Message</label>
+    <textarea class="form-control" id="message" name="message" rows="4"></textarea>
+  </div>
+
+  <!-- Submit button -->
+  <button data-mdb-button-init id="submit-form" type="submit" data-mdb-ripple-init class="btn btn-primary btn-block mb-4">
+    Send
+  </button>
+</form>
+
+
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary bg-light text-muted">
+ 
+  
+
+  <!-- Section: Links  -->
+  <section class="py-3">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Store
+          </h6>
+          <p>
+            Experience premium fashion crafted for those who appreciate elegance, quality, and modern sophistication.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">About</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Services</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> Damascus, Syria</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@store.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2026 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+ 
+
+  
+    
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
